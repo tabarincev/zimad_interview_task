@@ -59,5 +59,4 @@ $ python main.py
 | Библиотека | Документация |
 | ------ | ------ |
 | pandas | https://pandas.pydata.org/docs/ |
-| requests | https://docs.python-requests.org/en/latest/ |
 | wget | https://pypi.org/project/wget/|
