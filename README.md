@@ -19,7 +19,6 @@
 
 Также необходимо написать расчёт данного значение в виде SQL-запроса (приложить отдельный файл). То есть какой бы мы написали SQL-запрос к этой таблице, если бы мы могли обратиться непосредственно к БД (здесь неважно, какая именно БД, нужен просто SQL в общем виде).
 ## Average Revenue Per Daily Active User
-Данный показатель просчитывается ежедневно. Берем дневной доход и делим на количество пользователей за день.
 ![img](https://i.imgur.com/N1Ab1dO.jpg)
 ## Установка и запуск
 Клонировать репозиторий себе на машину
@@ -49,7 +48,9 @@ $ pip install -r requirements.txt
 ```sh
 $ python main.py
 ```
+## Результаты работы 
 
+![result](https://i.imgur.com/5vxDoRp.jpg)
 
 
 ## Используемые библиотеки
@@ -59,6 +60,3 @@ $ python main.py
 | ------ | ------ |
 | requests | https://docs.python-requests.org/en/latest/ |
 | wget | https://pypi.org/project/wget/|
-| gzip | https://docs.python.org/3/library/gzip.html |
-
-
